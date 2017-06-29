@@ -1,5 +1,5 @@
 body {
-    background-color: #f44336;
+    background-color: #607d8b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@ body {
 
 #loader {
     border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
+    border-top: 16px solid #3483FF; /* Blue */
     border-radius: 50%;
     width: 120px;
     height: 120px;
@@ -23,31 +23,34 @@ body {
 }
 
 .wrapper {
-    width: 70%;
+    width: 99%;
+    max-width: 700px;
     text-align: center;
     max-height: 100vh;
+    max-width: 700px;
 }
 
 .title {
     color: white;
     font-family: 'Righteous', cursive;
-    font-size: 5em;
+    font-size: 3em;
     text-align: center;
     display: inline-block;
     margin: 0;
     text-shadow: black 2px 2px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .subtitle {
     font-family: 'Roboto', sans-serif;
     color: white;
-    margin: 0;
+    margin: 0 auto;
 
 }
 
 #curriculum {
     width: 100%;
+    margin: 0 auto;
     text-align: center;
     font-family: sans-serif;
 }
@@ -69,19 +72,19 @@ td.course {
 }
 
 td.base-course {
-    background-color: #ff1e65;
+    background-color: #B321E8;
     border: 1px solid white;
     cursor: pointer;
 }
 
 td.major-course {
-    background-color: #2196f3;
+    background-color: #3483FF;
     border: 1px solid white;
     cursor: pointer;
 }
 
 td.elective-course {
-    background-color: #ff5722;
+    background-color: #FF5531;
     border: 1px solid white;
     cursor: pointer;
 }
@@ -108,7 +111,7 @@ td.elective-course {
 #return-button {
     padding: 5px;
     margin: 10px auto 0 auto;
-    background-color: #ff1e65;
+    background-color: #B321E8;
     border: 1px solid white;
     cursor: pointer;
     border-radius: 5px;
@@ -139,7 +142,7 @@ td.elective-course {
     border-radius: 5px;
     padding: 5px;
     margin: 5px auto 0 auto;
-    background-color: #2196f3;
+    background-color: #3483FF;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,7 +156,7 @@ td.elective-course {
     margin: -3px auto 10px auto;
     padding: 5px;
     display: none;
-    background-color: #2196f3;
+    background-color: #3483FF;
     border-radius: 0 0 5px 5px;
     max-width: 600px;
 }
