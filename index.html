@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to EE</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            $("#loader").hide();
+            $("#menu").show();
+        });
+    </script>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+<div id="loader"></div>
+
+<div class="wrapper" id="menu">
+    <h1 class="title">Welcome to EE.</h1>
+    <h3 class="subtitle">An unofficial guide to the first year.</h3>
+    <br>
+    <table id="curriculum">
+        <tr>
+            <td class="quartile">Quartile 1</td>
+            <td class="quartile">Quartile 2</td>
+            <td class="quartile">Quartile 3</td>
+            <td class="quartile">Quartile 4</td>
+        </tr>
+        <tr>
+            <td class="base-course course" data-course="calculusb">Calculus B</td>
+            <td class="base-course course" data-course="appphysci">Applied physical sciences</td>
+            <td class="base-course course" data-course="dataeng">Data engineering</td>
+            <td class="base-course course" data-course="useb">USE base</td>
+        </tr>
+        <tr>
+            <td class="major-course course" data-course="circuits">Circuits</td>
+            <td class="major-course course" data-course="signals">Signal processing basics</td>
+            <td class="major-course course" data-course="math1">Mathematics 1</td>
+            <td class="major-course course" data-course="systems">Systems</td>
+        </tr>
+        <tr>
+            <td class="major-course course" data-course="comp1">Computation I</td>
+            <td class="elective-course course" data-course="electiveq2">Elective</td>
+            <td class="major-course course" data-course="ec1">Electronic circuits 1</td>
+            <td class="elective-course course" data-course="electiveq4">Elective</td>
+        </tr>
+    </table>
+</div>
+<div id="course-info-wrapper">
+    <div id="course-info">
+
+    </div>
+    <br>
+    <div id="return-button">
+        <i class="material-icons">menu</i> Return to menu
+    </div>
+</div>
+
+</body>
+</html>

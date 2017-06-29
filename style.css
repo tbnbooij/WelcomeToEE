@@ -1,0 +1,159 @@
+body {
+    background-color: #f44336;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    overflow: auto;
+}
+
+#loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: rotate 2s linear infinite;
+}
+
+#menu {
+    display: none;
+}
+
+.wrapper {
+    width: 70%;
+    text-align: center;
+    max-height: 100vh;
+}
+
+.title {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 5em;
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    text-shadow: black 2px 2px;
+    margin: 0;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin: 0;
+
+}
+
+#curriculum {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+td {
+    font-family: 'Roboto', sans-serif;
+    width: 25%;
+    padding: 1em 0 1em 0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+td.course {
+    border-radius: 5px;
+    box-shadow: #414141 0px 0px 2px;
+    height: 3em;
+    text-shadow: black 1px 1px;
+}
+
+td.base-course {
+    background-color: #ff1e65;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+td.major-course {
+    background-color: #2196f3;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+td.elective-course {
+    background-color: #ff5722;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#main-icon {
+    color: white;
+    font-size: 250px;
+    margin: 0;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1.25s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+#return-button {
+    padding: 5px;
+    margin: 10px auto 0 auto;
+    background-color: #ff1e65;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    max-width: 400px;
+}
+
+#course-info-wrapper {
+    display: none;
+}
+
+.course-info-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.course-info-header {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px auto 0 auto;
+    background-color: #2196f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    max-width: 600px;
+}
+
+.course-info-text-content {
+    border: 1px solid white;
+    border-top: none;
+    margin: -3px auto 10px auto;
+    padding: 5px;
+    display: none;
+    background-color: #2196f3;
+    border-radius: 0 0 5px 5px;
+    max-width: 600px;
+}
