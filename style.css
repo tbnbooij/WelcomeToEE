@@ -28,6 +28,7 @@ body {
     text-align: center;
     max-height: 100vh;
     max-width: 700px;
+    margin: 100px 0;
 }
 
 .title {
@@ -60,7 +61,7 @@ td {
     width: 25%;
     padding: 1em 0 1em 0;
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: bold;
 }
 
@@ -141,22 +142,23 @@ td.elective-course {
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px;
-    margin: 5px auto 0 auto;
+    margin: 5px auto 0px auto;
     background-color: #3483FF;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .course-info-text-content {
     border: 1px solid white;
     border-top: none;
-    margin: -3px auto 10px auto;
+    margin: 0px auto 5px auto;
     padding: 5px;
     display: none;
-    background-color: #3483FF;
+    background-color: #3f51b5;
+    box-shadow: black 0 0 10px inset;
     border-radius: 0 0 5px 5px;
-    max-width: 600px;
+    max-width: 500px;
 }
